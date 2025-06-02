@@ -8,7 +8,7 @@ body {
     width: 100%;
     max-width: 60rem;
     margin: 2rem auto;
-    background: #2e103f ;
+    background:var(--color-header);
     border-radius: 1rem;
     padding: 1rem;;
     overflow-y: auto;
@@ -26,7 +26,7 @@ body {
 }
 .user {
     align-self: flex-end;
-    background: #8a2be2;
+    background: black;
     box-shadow: black 0px 0px 10px;
 }
 .other {
@@ -43,7 +43,7 @@ body {
 input {
     width: 75%;
     padding: 1rem;
-    background-color: #8a2be2;
+    background-color: white;
     color: white;
     border-radius: 2rem;
     margin-right: 0.4rem;
@@ -51,7 +51,8 @@ input {
     font-size: 1rem;
     font-family:'UnifrakturMaguntia', cursive ;
     box-shadow: #1a0923 0px 0px 10px;
-}    .emoji-menu {
+}  
+ .emoji-menu {
     display: none; /* El menú de emojis está oculto por defecto */
     position: absolute;
     bottom: 80px; /* Ajusta la posición del menú de emojis */
@@ -113,45 +114,22 @@ input {
 .key.special {
     background: #4b0082;
 }
+
 footer {
-    background-color: #3d2456;
-    padding: 15px;
-    margin-top: 20px;
+    background-color: var(--color-header);
+    padding: var(--espaciado-header);
+    margin-top: var(--espaciado-footer);
 }
+
 .social-links p {
     margin: 0;
-    font-size: 2rem;
+    font-size: var(--tam-footer-texto);
 }
+
 .social-links img {
-    width: 3rem;
-    height: 3rem;
+    width: var(--tam-img-social);
+    height: var(--tam-img-social);
     margin: 0 1rem;
-    border-radius: 0.8rem;
-    box-shadow: #1a0923 0px 0px 10px;
-}
-
-.emoji-menu {
-    display: none; /* El menú de emojis está oculto por defecto */
-    position: absolute;
-    bottom: 80px; /* Ajusta la posición del menú de emojis */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    z-index: 1000;
-}
-
-.emoji-menu button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.emoji-menu button:hover {
-    background-color: #444;
-    border-radius: 3px;
+    border-radius: var(--radio-social-img);
+    box-shadow: var(--color-sombra-img) 0px 0px 10px;
 }

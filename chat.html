@@ -1,59 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/chat.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeilVote Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chat.css">
 </head>
 
-
 <body>
-    <header>
-        <div class="logo">
-            <img src="../IMG/veil.png" alt="Logo">
-            <h1>VeilVote</h1>
-        </div>
+  <header>
+    <div class="logo">
+      <img src="../IMG/veil.png" alt="Logo">
+      <h1>VeilVote</h1>
+    </div>
 
+    <nav>
+      <ul>
+        <li><a href="#">Mi perfil</a></li>
+        <li><a href="#">Buscar</a></li>
+        <li><a href="#">Añadir</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <nav>
-            <ul>
-                <li><a href="#">Mi perfil</a></li>
-                <li><a href="#">Buscar</a></li>
-                <li><a href="#">Añadir</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
+  <main>
     <div class="chat-container" id="chat">
-        <!-- Aquí se mostrarán los mensajes -->
+      <!-- Aquí se mostrarán los mensajes -->
     </div>
+
     <div class="input-container">
-        <input type="text" id="messageInput" placeholder="Escribe un mensaje..." readonly>
-        <button class="send-button" onclick="sendMessage()">Enviar</button>
+      <input type="text" id="messageInput" placeholder="Escribe un mensaje...">
+      <button class="send-button" onclick="sendMessage()">Enviar</button>
     </div>
 
-
-    <div class="keyboard">
-        <button class="key">Q</button><button class="key">W</button><button class="key">E</button>
-        <button class="key">R</button><button class="key">T</button><button class="key">Y</button>
-        <button class="key">U</button><button class="key">I</button><button class="key">O</button><button class="key">P</button>
-        <button class="key">A</button><button class="key">S</button><button class="key">D</button>
-        <button class="key">F</button><button class="key">G</button><button class="key">H</button>
-        <button class="key">J</button><button class="key">K</button><button class="key">L</button><button class="key">Ñ</button>
-        <button class="key">Z</button><button class="key">X</button><button class="key">C</button>
-        <button class="key">V</button><button class="key">B</button><button class="key">N</button><button class="key">M</button>
-        <button class="key"> </button> <!-- BARRA ESPACIADORA -->
-        <button class="key special" id="deleteKey">←</button>
-        <button class="key special" id="sendKey">❤️</button> 
-    </div>
-    </main>
-    <script src="../JS/chat.js"></script>
- 
-
-
+<!-- div class="keyboard" id="virtualKeyboard">
+      <button class="key">Q</button><button class="key">W</button><button class="key">E</button>
+      <button class="key">R</button><button class="key">T</button><button class="key">Y</button>
+      <button class="key">U</button><button class="key">I</button><button class="key">O</button><button class="key">P</button>
+      <button class="key">A</button><button class="key">S</button><button class="key">D</button>
+      <button class="key">F</button><button class="key">G</button><button class="key">H</button>
+      <button class="key">J</button><button class="key">K</button><button class="key">L</button><button class="key">Ñ</button>
+      <button class="key">Z</button><button class="key">X</button><button class="key">C</button>
+      <button class="key">V</button><button class="key">B</button><button class="key">N</button><button class="key">M</button>
+      <button class="key" data-char=" ">⎵</button>
+      <button class="key special" id="deleteKey">←</button>
+      <button class="key special" id="sendKey">❤️</button>
+    </div> -->
+  </main>
+  <script src="chat.js"></script>
+  
     <footer>
         <div class="social-links">
             <p>Redes sociales</p>

@@ -1,0 +1,12 @@
+body {
+  background-color: #f5ddf9;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #2d0030;
+  text-align: center;
+}
+img {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 3rem;
+  margin: 1rem;
+}

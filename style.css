@@ -1,9 +1,8 @@
 :root {
-    --color-fondo: #1a0923;
+    --color-fondo:#e5c0e5 ;
     --color-texto: white;
-    --color-header: #3d2456;
+    --color-header: #67428d;
     --color-hover: plum;
-    --color-menu-bg: #e5c0e5;
     --color-menu-text: black;
     --color-sombra: #3d2456;
     --color-sombra-img: #1a0923;
@@ -21,11 +20,11 @@
     --radio-menu-img: 3rem;
     --radio-social-img: 0.8rem;
 
-    --espaciado-header: 15px;
+    --espaciado-header: 5rem;
     --espaciado-menu: 5rem;
     --espaciado-menu-gap: 1rem;
     --espaciado-nav: 3rem;
-    --espaciado-footer: 20px;
+    --espaciado-footer: 2rem;
 }
 body {
     background-color: var(--color-fondo);
